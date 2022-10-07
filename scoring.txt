@@ -1,0 +1,15 @@
+     Soft Drop: 1x Distance
+Hard/Firm Drop: 2x Distance
+        Single: 100
+   Mini T-wist: +100
+        Double: 300
+        Triple: 500
+        T-wist: 400
+       Tetrust: 800
+ T-wist Single: 800
+ T-wist Double: 1200
+ T-wist Triple: 1600
+   Clean Sweep: 3000
+
+  Back-to-Back: Points * 1.5
+         Chain: Amount * 50
