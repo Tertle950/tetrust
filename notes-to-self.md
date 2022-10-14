@@ -9,16 +9,17 @@ let mut onlyGoodBattleRoyale:[[str;2];3] = [["99";2];3];
 ```
 outputs something like
 ```
-[["99","99","99"],
- ["99","99","99"]]
+[["99","99"],
+ ["99","99"],
+ ["99","99"]]
 ```
 
-*NOTE:* inner = rows, outer = columns
+*NOTE:* inner = columns, outer = rows
 
 Therefore, to create the game grid...
 
 ```rust
-let mut grid:[[i32; 40]; 10] = [[0; 30]; 10];
+let mut grid:[[i32; 10]; 40] = [[0; 10]; 40];
 ```
 
 _Yes, the grid is 40 blocks tall in Guideline T*tris. This is because of garbage lines._
@@ -29,8 +30,9 @@ onlyGoodBattleRoyale[1][1] = "Crab Game"
 ```
 results in
 ```
-[["99","99","99"],
- ["99","Crab Game","99"]]
+[["99","99"],
+ ["99","Crab Game"],
+ ["99","99"]]
 ```
 
 Yes, I think Crab Game is a battle royale. Don't @ me.
