@@ -21,7 +21,7 @@ Therefore, to create the game grid...
 let mut grid:[[i32; 40]; 10] = [[0; 30]; 10];
 ```
 
-_(Yes, the grid is 40 blocks tall in Guideline T*tris. This is because of garbage lines.)_
+_Yes, the grid is 40 blocks tall in Guideline T*tris. This is because of garbage lines._
 
 The 2D arrays themselves are accessed the same way as in Java.
 ```rust
@@ -33,7 +33,7 @@ results in
  ["99","Crab Game","99"]]
 ```
 
-Crab Game is a battle royale. Don't @ me.
+Yes, I think Crab Game is a battle royale. Don't @ me.
 
 ## Tetrominos
 Did you know that filling a rectangle with one set of tetrominoes is impossible?
@@ -59,3 +59,4 @@ Yes, it's ARS! (Arika Rotation System)
 This may also be possible by coding specific offsets for specific rotations...
 
 *WOULD-BE-COOL:* Symmetrical ARS. I don't like that there's a right side bias. Yes there is a right side bias in TGM.
+_DTET already does something similar, but I'd prefer rotation button decide the horiz offset than rotation state._
